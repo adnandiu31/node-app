@@ -6,6 +6,11 @@ app.get('/', function (req, res) {
 app.get('/foo', function (req, res) {
     res.send('Hello Worldsfsodfhkshdfkjkd!');
   });
+  app.get('/bar', function (req, res) {
+    res.send('Hello Worldsfsodfhkshdfkjkd!');
+  });
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
+
+// ITS HUST A COMEENT TO CHECK
